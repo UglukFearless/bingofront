@@ -23,7 +23,7 @@ export default class AppFooter extends Vue {}
     
     &__container {
         width: 100%;
-        min-height: 200px;
+        min-height: 60px;
         border-top: 1px solid black;
     }
 }

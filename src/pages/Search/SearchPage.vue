@@ -1,7 +1,9 @@
 <template>
-<BaseLayout>
-    <p>Невразумительный текст</p>
-</BaseLayout>
+    <BaseLayout>
+        <p>Search string</p>
+        <p>filters</p>
+        <p>Search result</p>
+    </BaseLayout>
 </template>
 
 <script lang="ts">
@@ -13,5 +15,5 @@ import BaseLayout from '@/layouts/BaseLayout.vue';
         BaseLayout,
     },
 })
-export default class HomePage extends Vue {}
+export default class SearchPage extends Vue {}
 </script>
